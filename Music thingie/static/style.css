@@ -26,6 +26,7 @@
 	background-color: #000066;
 	color: #1a0000;
 	font-family: 'Fjalla One', sans-serif;
+	text-shadow: 1px 1px #1f222e;
 }
 
 #lightsbody {
@@ -51,7 +52,7 @@
 
 .titles {
 	margin: auto;
-	font-size: 4em;
+	font-size: 4.3em;
 	letter-spacing: 0.2em;
 }
 
@@ -75,4 +76,19 @@
 	color: black;
 	position: relative;
 	top: 5%;
+}
+
+
+.footer {
+	position: relative;
+	top: 80%;
+	left: 5;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: 0.2em;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 5em;
 }

@@ -31,5 +31,10 @@ def lights():
     
     return render_template("lights.html")
 
+@app.route('/FEEDBACK')
+def feedback():
+    
+    return render_template("feedback.html")
+
 if __name__ == '__main__':
     app.run(debug=True)
