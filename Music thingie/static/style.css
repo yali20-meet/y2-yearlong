@@ -1,0 +1,78 @@
+
+#homebody {
+	background-color: #ffcccc;
+	letter-spacing: 0.3em;
+}
+
+#flowerbody {
+	background-color: #00ccff;
+	color: #ffff66;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#sunbody {
+	background-color: #ffb469;
+	color: #60ab55;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#moonbody {
+	background-color: #4d004d;
+	color: #000033;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#moon2body {
+	background-color: #000066;
+	color: #1a0000;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#lightsbody {
+	background-color: #ff3300;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.main {
+	text-decoration: none;
+	color: white;
+	font-size: 3em;
+	font-family: 'Fjalla One', sans-serif;
+	margin:auto 2em;
+}
+
+.main:hover {color: #ffb3b3;}
+
+#container {
+	position: relative;
+	top: 40%;
+}
+
+.titles {
+	margin: auto;
+	font-size: 4em;
+	letter-spacing: 0.2em;
+}
+
+.title-container {
+	margin: 0 auto;
+	position: relative;
+	top: 10%;
+	width: 45%;
+}
+
+.desciption {
+	margin:1;
+	font-size: 2em;
+	letter-spacing: 0.05em;
+}
+
+.back {
+	text-decoration: none;
+	margin: 1em;
+	font-size: 1.5em;
+	color: black;
+	position: relative;
+	top: 5%;
+}
