@@ -8,8 +8,8 @@ Base.metadata.create_all(engine)
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
 
-def add_feedback(playlist, feedback):
-	feed_object = Company(playlist = companyName , feedback = feedback)
+def add_feed(playlist, feedback):
+	feed_object = Feedback(playlist = playlist , feedback = feedback)
 	session.add(feed_object)
 	session.commit()
 

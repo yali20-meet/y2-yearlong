@@ -10,7 +10,7 @@ class Feedback(Base):
 	__tablename__ = 'Feedback'
 	id = Column(Integer , primary_key=True)
 	feedback = Column(String)
-	playlist = Column()
+	playlist = Column(String)
 
 	def __repr__(self):
 		return ("Playlist: {} \nFeedback: {}").format(self.playlist , self.feedback)

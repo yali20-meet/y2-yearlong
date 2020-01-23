@@ -35,6 +35,13 @@
 	font-family: 'Fjalla One', sans-serif;
 }
 
+#feedback-body {
+	position: relative;
+	background-color: #ffcccc;
+	color: #70d1d4;
+	font-family: 'Fjalla One', sans-serif;
+}
+
 .main {
 	text-decoration: none;
 	color: white;
@@ -81,7 +88,7 @@
 
 .footer {
 	position: relative;
-	top: 80%;
+	top: 70%;
 	left: 5;
 }
 
@@ -92,3 +99,11 @@
 	font-family: 'Fjalla One', sans-serif;
 	font-family: 5em;
 }
+
+#bfeedback {
+	font-family: 'Fjalla One', sans-serif;
+	position: relative;
+	top: 20%;
+}
+
+

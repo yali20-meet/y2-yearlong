@@ -1,4 +1,7 @@
 from flask import Flask, render_template, request
+
+from database import *
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -31,10 +34,16 @@ def lights():
     
     return render_template("lights.html")
 
-@app.route('/FEEDBACK')
+@app.route('/FEEDBACK' ,  methods=["GET" , "POST"])
 def feedback():
-    
-    return render_template("feedback.html")
+	if request.method == "GET":
+		return render_template("feedback.html")
+	else:
+		playlist = request.form["playlist"]
+		feedback = request.form["feedback"]
+		add_feed(playlist, feedback)
+		return render_template("home.html")
+
 
 if __name__ == '__main__':
     app.run(debug=True)
