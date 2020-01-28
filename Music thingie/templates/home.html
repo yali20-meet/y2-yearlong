@@ -6,6 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="../static/style.css">
 	</head>
 	<body id="homebody">
+		<div class="feedback">
+			<a class="afeedhome" href="{{url_for('feedback')}}">FEEDBACK?</a>
+		</div>
 		<div align="center" id="container">
 			<a class="main" href="{{url_for('flower')}}">FLOWER</a>
 			<a class="main" href="{{url_for('sun')}}">SUN</a>
@@ -14,8 +17,5 @@
 			<a class="main" href="{{url_for('lights')}}">LIGHTS</a>
 		</div>
 		
-		<div class=footer>
-			<a href="{{url_for('feedback')}}">Feedback?</a>
-		</div>
 	</body>
 </html>

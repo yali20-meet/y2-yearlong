@@ -11,13 +11,18 @@
 		<link rel="stylesheet" type="text/css" href="../static/style.css">
 	</head>
 	<body id="moonbody">
-		<a class="back" href="{{url_for('home')}}">BACK</a>
+		<div class="feedback">
+			<a class="back" href="{{url_for('home')}}">BACK</a>
+			<a class="afeed" href="{{url_for('feedback')}}">FEEDBACK?</a>
+		</div>
 		<div align="center" class="title-container">
 			<h1 class="titles">MOON</h1>
 			<p class="description">THIS IS A HARD ONE. SADDER, THOUGHER, DARKER. UNLIKE SUN THIS PLAYLIST GOES THROUGH A DIFFERENT KIND OF SELF-EXPLORATION. DONT GO IN TO THIS EXPECTING TO COME THE SAME.</p>
 		</div>
-		<div class=footer>
-			<a href="{{url_for('feedback')}}">Feedback?</a>
+		<br><br><br><br><br><br><br>
+		<div> 
+			<!-- https://open.spotify.com/embed/user/wqnnhxpun61r6jelsrev3cu39/playlist/4XkQEtevEYhPcgSXMufTKc Matvey --> 
+			<iframe id="spotify" src=" https://open.spotify.com/embed/playlist/5MqiHUz3jlPAlULbd9B8WU " width="100%" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
 		</div>
 	</body>
 </html>

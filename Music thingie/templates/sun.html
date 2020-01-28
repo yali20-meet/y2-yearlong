@@ -11,13 +11,18 @@
 		<link rel="stylesheet" type="text/css" href="../static/style.css">
 	</head>
 	<body id="sunbody">
-		<a class="back" href="{{url_for('home')}}">BACK</a>
+		<div class="feedback">
+			<a class="back" href="{{url_for('home')}}">BACK</a>
+			<a class="afeed" href="{{url_for('feedback')}}">FEEDBACK?</a>
+		</div>
 		<div align="center" class="title-container">
 			<h1 class="titles">SUN</h1>
 			<p class="description">FEELING BLESSED? HEAR THIS. ONE OF THE TOP CHOICES IF YOU ASK ME. BEST HEARD ON A SUNNY AFTERNOON BUT CAN BE HEARD ANYTIME IF YOU ARE IN THE RIGHT MOOD. THIS PLAYLIST EXPLORES YOUR INNER-SELF, BUT IN A GOOD WAY.</p>
 		</div>
-		<div class=footer>
-			<a href="{{url_for('feedback')}}">Feedback?</a>
-		</div>
+		<br><br><br><br><br><br><br>
+		<div> 
+			<!-- https://open.spotify.com/embed/user/wqnnhxpun61r6jelsrev3cu39/playlist/4XkQEtevEYhPcgSXMufTKc Matvey --> 
+			<iframe id="spotify" src=" https://open.spotify.com/embed/playlist/3vVJa7xzYl5QszE65weY3M" width="100%" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+		</div>  
 	</body>
 </html>

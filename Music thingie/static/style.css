@@ -1,7 +1,7 @@
 
 #homebody {
 	background-color: #ffcccc;
-	letter-spacing: 0.3em;
+	/*letter-spacing: 0.3em;*/
 }
 
 #flowerbody {
@@ -12,19 +12,20 @@
 
 #sunbody {
 	background-color: #ffb469;
-	color: #60ab55;
+	/*color: #60ab55;*/
+	color: #000080;
 	font-family: 'Fjalla One', sans-serif;
 }
 
 #moonbody {
 	background-color: #4d004d;
-	color: #000033;
+	color: #556b2f;
 	font-family: 'Fjalla One', sans-serif;
 }
 
 #moon2body {
 	background-color: #000066;
-	color: #1a0000;
+	color: #92bede;
 	font-family: 'Fjalla One', sans-serif;
 	text-shadow: 1px 1px #1f222e;
 }
@@ -38,7 +39,7 @@
 #feedback-body {
 	position: relative;
 	background-color: #ffcccc;
-	color: #70d1d4;
+	color: #506aa1;
 	font-family: 'Fjalla One', sans-serif;
 }
 
@@ -86,19 +87,32 @@
 }
 
 
-.footer {
+.feedback {
 	position: relative;
-	top: 70%;
-	left: 5;
+	font-family:'Fjalla One', sans-serif; 
+	width:100%;
 }
 
-.footer a {
+.feedback .afeed {
+	position: relative;
+	left:86%;
 	text-decoration: none;
 	color: black;
-	letter-spacing: 0.2em;
-	font-family: 'Fjalla One', sans-serif;
 	font-family: 5em;
+	font-size: 1.5em;
+	margin: 1em;
 }
+
+.feedback .afeedhome {
+	position: relative;
+	left:91%;
+	text-decoration: none;
+	color: black;
+	font-family: 5em;
+	font-size: 1.5em;
+	margin: 1em;
+}
+
 
 #bfeedback {
 	font-family: 'Fjalla One', sans-serif;

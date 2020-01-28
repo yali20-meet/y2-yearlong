@@ -6,18 +6,21 @@
 		<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
 	</head>
 	<body id="feedback-body">
+		<div class="feedback">
+			<a class="back" href="{{url_for('home')}}">BACK</a>
+		</div>
 		<div align="center" class="title-container">
 			<h1 class="titles">FEEDBACK?</h1>
-			<p class="description"></p>
+			<p class="description">HAVE SOME FEEDBACK ON A PLAYLIST? WANT TO TRY AND ADD A SONG? MAYBE JUST WANT TO TALK? WELL JUST CHOOSE YOUR TOPIC AND WRITE ME ABOUT IT!</p>
 		</div>
 		<div id="bfeedback" align='center'>
 			<form method="post" action="/FEEDBACK">
-				<span><input type="radio" name="playlist" value="random topic" checked> RANDOM TOPIC<</span>
-				<span><input type="radio" name="playlist" value="flower" >FLOWER
-				<span><input type="radio" name="playlist" value="sun" > SUN</span>
-				<span><input type="radio" name="playlist" value="moon" > MOON</span>
-				<span><input type="radio" name="playlist" value="moon2" > MOON2</span>
-				<span><input type="radio" name="playlist" value="lights" > LIGHTS</span>
+				<span><input type="radio" name="playlist" value="random topic" checked>RANDOM TOPIC</span>
+				<span><input type="radio" name="playlist" value="flower" >FLOWER</span>
+				<span><input type="radio" name="playlist" value="sun" >SUN</span>
+				<span><input type="radio" name="playlist" value="moon" >MOON</span>
+				<span><input type="radio" name="playlist" value="moon2" >MOON2</span>
+				<span><input type="radio" name="playlist" value="lights" >LIGHTS</span>
 				<br><br><br><br>
 				<span><textarea name="feedback" rows="15" cols="40">ENTER YOUR FEEDBACK</textarea></span>
 				<br>

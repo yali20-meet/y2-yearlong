@@ -11,13 +11,18 @@
 		<link rel="stylesheet" type="text/css" href="../static/style.css">
 	</head>
 	<body id="moon2body">
-		<a class="back" href="{{url_for('home')}}">BACK</a>
+		<div class="feedback">
+			<a class="back" href="{{url_for('home')}}">BACK</a>
+			<a class="afeed" href="{{url_for('feedback')}}">FEEDBACK?</a>
+		</div>
 		<div align="center" class="title-container">
 			<h1 class="titles">MOON2</h1>
 			<p class="description">PROBABLY WONDERING WHY I JUST MADE 1 MOON PLAYLIST. WELL THE REASON FOR THAT IS I FELT LIKE MOON2 IS A BIT DIFFERENT. IN MOON IT WAS ALL ABOUT YOURSELF. IN MOON2 ITS ALL ABOUT SOMEONE ELSE.</p>
 		</div>
-		<div class=footer>
-			<a href="{{url_for('feedback')}}">Feedback?</a>
-		</div>
+		<br><br><br><br><br><br><br>
+		<div> 
+			<!-- https://open.spotify.com/embed/user/wqnnhxpun61r6jelsrev3cu39/playlist/4XkQEtevEYhPcgSXMufTKc Matvey --> 
+			<iframe id="spotify" src=" https://open.spotify.com/embed/playlist/2qMkjjTNTymDS1INQMXUoO" width="100%" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+		</div>  
 	</body>
 </html>
